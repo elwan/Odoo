@@ -14,12 +14,11 @@
         <field name="domain_force">['|',('account_id.user_ids','=',False),('account_id.id','in',[account.id for account in user.account_ids])]</field>
     </record>    
 
-    <record model="ir.rule" id="account_security_rule_account_move">
+<!--    <record model="ir.rule" id="account_security_rule_account_move">
         <field name="name">Account Move of accounts  allowed to user</field>
         <field name="model_id" ref="account.model_account_move"/>
         <field name="domain_force">['|',('account_id.user_ids','=',False),('account_id.id','in',[account.id for account in user.account_ids])]</field>
-    </record>          
-
+	</record>  -->
     <record model="ir.rule" id="account_security_rule_account_move_line">
         <field name="name">Account Move Line of  accounts  allowed to user</field>
         <field name="model_id" ref="account.model_account_move_line"/>
