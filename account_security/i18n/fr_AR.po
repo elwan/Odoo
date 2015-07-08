@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_security
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-29 16:03+0000\n"
+"PO-Revision-Date: 2014-09-29 13:16-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: account_security
+#: view:account.journal:account_security.view_account_security_account_form
+msgid "Advanced Settings"
+msgstr "Parametre avancé"
+
+#. module: account_journal_security
+#: view:res.users:account_security.view_account_security_users_form
+msgid "Allowed Companies"
+msgstr "Autoriser Compagnies "
+
+#. module: account_security
+#: help:account.account,user_ids:0
+msgid ""
+"If choose some users, then this journal and the information related to it "
+"will be only visible for those users."
+msgstr ""
+"Si vous choisissez un utilisateur, alors le compte et ces informations lui seront associee "
+"et ne seront visible que pour cet utilisateur ."
+
+#. module: account_security
+#: model:ir.model,name:account_security.model_account_journal
+msgid "Journal"
+msgstr "Journal"
+
+#. module: account_security
+#: view:res.users:account_security.view_account_security_users_form
+#: field:res.users,journal_ids:0
+msgid "Restricted account"
+msgstr "Compte protégé"
+
+#. module: account_security
+#: field:account.account,user_ids:0
+msgid "Restricted to Users"
+msgstr "restriction de l'utilisateur"
+
+#. module: account_security
+#: help:res.users,account_ids:0
+msgid ""
+"This accounts and the information related to it will be only visible for "
+"users where you specify that they can see them setting this same field."
+msgstr ""
+"les comptes et leurs information associées seront uniquement disponibles pour  "
+"les utilisateurs qui seront ajoutés dans le même champ "
+"elwan."
+
+#. module: account_security
+#: model:ir.model,name:account_security.model_res_users
+msgid "Users"
+msgstr "Utilisateurs"
