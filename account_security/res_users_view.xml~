@@ -9,7 +9,7 @@
             <field name="arch" type="xml">
                 <group string="Allowed Companies" position="before">
                     <group string="Restricted accounts">
-                        <field name="account_x_ids" nolabel="1" widget="many2many_tags"  groups= "base.group_erp_manager" />
+                        <field name="account_ids" nolabel="1" widget="many2many_tags"  groups= "base.group_erp_manager" />
                     </group>                
                 </group>                
             </field>

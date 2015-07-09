@@ -9,7 +9,7 @@
             <field name="arch" type="xml">
               <!--  <page string="Advanced Settings"> -->
                     <group>
-                        <field name="user_x_ids" widget="many2many_tags" groups="base.group_erp_manager"/>
+                        <field name="user_ids" widget="many2many_tags" groups="base.group_erp_manager"/>
                     </group>
               <!--  </page> -->
             </field>

@@ -19,12 +19,12 @@ msgstr ""
 #. module: account_security
 #: view:account.journal:account_security.view_account_security_account_form
 msgid "Advanced Settings"
-msgstr "Parametres avancés"
+msgstr "Parametre avancé"
 
 #. module: account_journal_security
 #: view:res.users:account_security.view_account_security_users_form
 msgid "Allowed Companies"
-msgstr "Sociétés autorisées "
+msgstr "Autoriser Compagnies "
 
 #. module: account_security
 #: help:account.account,user_ids:0

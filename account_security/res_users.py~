@@ -6,6 +6,6 @@ class users(osv.osv):
     _inherit = 'res.users'
     
     _columns = {
-        'account_x_ids': fields.many2many('account.account', 'account_security_account_users','user_id',
+        'account_ids': fields.many2many('account.account', 'account_security_account_users','user_id',
                                         'account_id', 'Restricted Accounts', help="This accounts and the information related to it will be only visible for users where you specify that they can see them setting this same field."),
     }
