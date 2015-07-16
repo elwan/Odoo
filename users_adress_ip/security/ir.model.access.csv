@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_users_adress_ip_users_adress_ip,users_adress_ip.users_adress_ip,model_users_adress_ip_users_adress_ip,,1,0,0,0
